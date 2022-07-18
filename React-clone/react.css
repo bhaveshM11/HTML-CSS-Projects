@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+.support {
+    border: 1px solid black;
+    height: 30px;
+    background-color: hsl(222, 14%, 10%);
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 17.5px;
+}
+.support pre{
+    display: inline;
+    color: white;
+}
+.support p{
+    display: inline;
+    color: #61dafb;
+}
+nav{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border:1px solid black;
+    height:60px;
+    background-color: #20232a;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-grow: 2;
+}
+
+nav span{
+    flex-grow: 1;
+    padding-left: 160px;
+    color: #61dafb;
+    font-size: 20px;
+    font-weight: 800;
+}
+header img{
+    height: 30px;
+    position: absolute;
+    top: 70px;
+    left: 115px;
+}
+nav input{
+    margin-left: -250px;
+    background-color: #20232a;
+    border: 0px;
+    font-size: 17px;
+    margin-right: 30px;
+    color: white;
+}
+
+.list-1 li a ,.list-2 li a {
+  text-decoration: none;
+  margin: 0px 20px;
+  color: white;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.list-1 li a:hover ,.list-2 li a:hover{
+    transition: .3s;
+    font-size: 20px;
+    color: #61dafb;
+}
+
+main{
+  min-height: 800px;
+}
+.section-1{
+    background-color: #282c34;
+    height: 360px;
+    text-align: center;
+    background-image: url('images/react-icon-15.jpg')  ;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: right;
+    padding: 50px;
+}
+.section-1 h1{
+    font-size: 60px;
+    color: #61dafb;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.section-1 h2{
+   color: white;
+   margin-bottom: 60px;
+}
+.section-1 button{
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #61dafb;
+    margin-right: 15px;
+}
+.section-1 a{
+    color:#61dafb;
+    text-decoration: none;
+ }
+ .section-1 button:hover{
+     transition: .3s;
+    padding: 15px 30px;
+    font-size: 25px;
+    background-color: white;
+    margin-right: 15px;
+}
+ .section-1 a:hover{
+    transition: .3s;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+ }
+
+ .section-2{
+     display: flex;
+     height: 600px;  
+ }
+
+ .discription{
+     padding: 40px 60px;
+     line-height: 30px;   
+ }
+ .discription h3{
+    margin: 30px 0px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    flex-wrap: wrap;
+    height: 800px;
+    background-color: #20232a;
+}
+.info-2{
+   flex-basis: 420px;
+    padding :50px 0px 20px 20px;
+    height: 300px;
+}
+.info-2>p{
+    color: rgb(177, 177, 177) ;
+}
+.info-2 ul{
+    list-style: none; 
+}
+.info-2 ul li a{
+   text-decoration: none;
+   color: white ;
+   line-height: 25px;  
+}
+.info-2 ul li {
+    line-height: 35px;
+}
+.info-2 >ul> li:nth-child(1)>a{
+    font-weight: 700;
+    color: rgb(177, 177, 177) ;
+}
+
